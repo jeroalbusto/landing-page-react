@@ -1,6 +1,14 @@
 import React from 'react'
 import "./product.css"
 
+import cyanImage from "./assets/cyan.png";
+import purpleImage from "./assets/purple.png";
+import blueImage from "./assets/blue.png";
+import greenImage from "./assets/green.png";
+import pinkImage from "./assets/pink.png";
+import redImage from "./assets/red.png";
+
+
 const Product = () => {
   return (
     <section className="product-items section-padding" id="product">
@@ -15,7 +23,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/cyan.png" alt="" />
+                            <img src={cyanImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
@@ -34,7 +42,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/purple.png" alt="" />
+                            <img src={purpleImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
@@ -53,7 +61,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/blue.png" alt="" />
+                            <img src={blueImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
@@ -72,7 +80,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/green.png" alt="" />
+                            <img src={greenImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
@@ -92,7 +100,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/pink.png" alt="" />
+                            <img src={pinkImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
@@ -111,7 +119,7 @@ const Product = () => {
                 <div className="product-item">
                     <div className="product-item-inner">
                         <div className="card-img">
-                            <img src="src/assets/red.png" alt="" />
+                            <img src={redImage} alt="" />
                         </div>
                         <div className="card-name">
                             <p>Smart Bailo Watch</p>
