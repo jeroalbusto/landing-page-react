@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
 
+import purpleImage from "../../assets/purple.png";
+
 const Home = () => {
   return (
     <section className="home-section" id='home'>
@@ -57,7 +59,7 @@ const Home = () => {
           </div>
           <div className="home-image">
             <div className="img-box">
-              <img src="./src/assets/purple.png"/>
+              <img src={purpleImage}/>
             </div>
           </div>
         </div>
